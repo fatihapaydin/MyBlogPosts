@@ -1,4 +1,3 @@
 ### My Blog Post Download Links
 
-## 1. Npm Practice 
-https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/fatihapaydin/MyBlogPosts/tree/master/01NpmPractice
+## 1. Npm Practice https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/fatihapaydin/MyBlogPosts/tree/master/01-NpmPractice
