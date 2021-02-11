@@ -82,7 +82,7 @@ Ctrl+Shift+E kısayolu ile ulaşabileceğimiz explorerdan package.json dosyasın
     "underscore": "^1.12.0"
   },
   "devDependencies": {
-    "typescript": "^4.1.5"
+    "typescript": "^4.1.3"
   }
 }
 ```
@@ -123,6 +123,7 @@ Rimrafı **npm uninstall rimraf --save-dev** komutu ile projeden kaldıralım. Y
 }
  ```
  9- Bir pakete ait (mesela rimraf) tüm bilgileri görmek için **npm view rimraf** komutu çalıştırılır. Sadece daha önce yayınlanmış versiyon bilgilerini görmek içinse **npm view rimraf versions** komutu kullanılabilir.
+ 
  ![Rimraf Package Versions](./assets/npmpackageversions.png)
 
  10- Bir paketin daha güncel sürümü var mı öğrenmek için **npm outdated** komutu çalıştırılır.
