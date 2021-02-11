@@ -155,7 +155,7 @@ diğer paketler zaten güncel olduğundan sadece rimraf upgrade edilebileceği e
  
 14- Projenizde eğer bir hata yaptıysanız ve en baştan başlamak istiyorsanız **node_modules** klasörünü ve package-lock.json dosyasını silin. package.json dosyasında rimrafın sürümünü **"rimraf":"^2.5.1"** olarak değiştirip package.json dosyasını kaydedin. Şimdi **npm install** komutunu çalıştırın. 
  
-15- Eğer rimrafın versiyonunun npm install komutu ile daha yeni bir sürüme güncellenmesini istemiyorsak **npm install rimraf --save-dev --save-exact komutunu çalıştırabilir veya direkt package.json dosyasında rimraf sürüm numarasının önündeki ^ işaretini kaldırıp package.json dosyasını kaydettikten sonra npm install komutunu çalıştırabiliriz. Yani oluşturduğumuz package.json’ı kullanan başka birinin sadece exact ile kurulan sürümü kullanacağını garanti ederiz.
+15- Eğer rimrafın versiyonunun npm install komutu ile daha yeni bir sürüme güncellenmesini istemiyorsak **npm install rimraf --save-dev --save-exact** komutunu çalıştırabilir veya direkt package.json dosyasında rimraf sürüm numarasının önündeki ^ işaretini kaldırıp package.json dosyasını kaydettikten sonra npm install komutunu çalıştırabiliriz. Yani oluşturduğumuz package.json’ı kullanan başka birinin sadece exact ile kurulan sürümü kullanacağını garanti ederiz.
  
 16- **npm help** komutu ile tüm npm komutlarını görebilirsin.
  
